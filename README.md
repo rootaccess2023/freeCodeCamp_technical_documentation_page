@@ -10,7 +10,7 @@ You can view the fully implemented tribute page online at the following link:
 
 <img src="Technical Documentation Page.png">
 
-[View Tribute Page to Jose Rizal](https://rootaccess2023.github.io/freeCodeCamp_tribute_page/)
+[View Technical Documentation Page](https://rootaccess2023.github.io/freeCodeCamp_tribute_page/)
 
 ## Project Description
 
