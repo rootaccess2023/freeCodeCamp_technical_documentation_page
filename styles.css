@@ -1,98 +1,189 @@
-/* Font Style Import */
+    /* Font Style Import */
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-/* CSS Reset */
+    /* CSS Reset */
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Josefin Sans", sans-serif;
-  color: #6B6B6B;
-}
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    color: #6B6B6B;
+    }
 
-html {
-    scroll-behavior: smooth;
-}
+    html {
+        scroll-behavior: smooth;
+    }
 
-body {
-    height: 100vh;
-}
+    body {
+        height: 100vh;
+    }
 
-/* Elements */
+    /* Elements */
 
-nav {
-    display: flex;
-    flex-direction: column;
-    width: 25rem;
-    position: fixed;
-    height: 100%;
-    overflow: scroll;
-}
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 25rem;
+        position: fixed;
+        height: 100%;
+    }
 
-ul {
-    list-style: none;
-}
+    ul {
+        list-style: none;
+        overflow: scroll;
+    }
 
-ul li {
-    height: 5rem;
-    border-top: 1px solid #e1e1e1;
-    display: flex;
-    align-items: center;
-    padding-left: 2.5rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
+    ul li {
+        height: 5rem;
+        border-top: 1px solid #e1e1e1;
+        display: flex;
+        align-items: center;
+        padding-left: 2.5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
 
-ul li:hover {
-    background-color: #f5f5f5;
-}
+    ul li:hover {
+        background-color: #f5f5f5;
+    }
 
-ul li a {
-    text-decoration: none;
-    width: 100%;
-}
+    ul li a {
+        text-decoration: none;
+        width: 100%;
+    }
 
-i {
-    color: #2C2C2C;
-}
+    i {
+        color: #2C2C2C;
+    }
 
-header {
-    font-size: 2rem;
-    color: #2C2C2C;
-}
+    header {
+        font-size: 2rem;
+        color: #2C2C2C;
+    }
 
-article {
-    padding: 1rem 0;
-}
+    article {
+        padding: 1rem 0;
+    }
 
-p {
-    font-size: 1.2rem;
-    padding-bottom: 1rem;
-    text-align: justify;
-    font-weight: 340;
-}
+    p {
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+        text-align: justify;
+        font-weight: 340;
+    }
+
+    code {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Classes */
+
+    .icon-space {
+        padding-left: 1rem;
+        color: #2C2C2C;
+    }
+
+    .inherited-properties {
+        list-style: none;
+        font-size: 1.5rem;
+    }
+
+    .inherited-properties ul li {
+        font-size: 1rem;
+        border: none;
+        height: 2rem;
+    }
+    /* IDs*/
+
+    #main-doc {
+        margin-left: 25rem;
+        padding-top: clamp(1rem, 10vh, 5rem);
+        padding-bottom: clamp(1rem, 10vh, 5rem);
+        padding-left: clamp(0.5rem, 5vh, 8rem);
+        padding-right: clamp(0.5rem, 5vh, 8rem);
+        width: calc(100% - 25rem);
+    }
+
+    #technical-doc {
+        padding: clamp(1rem, 2vh, 2rem);
+        font-size: clamp(0.5rem, 10vh, 2rem);
+        text-align: center;
+        cursor: pointer;
+    }
 
 
-/* Classes */
+    #inheritance {
+        padding-bottom: 2rem;
+    }
 
-.icon-space {
-    padding-left: 1rem;
-    color: #2C2C2C;
-}
+    /* Media Query */
 
-/* IDs*/
+    @media only screen and (max-width: 900px) {
+        nav {
+            display: flex;
+            position: relative;
+            height: 10.5rem;
+            width: 100%;
+        }
+        
+        #main-doc {
+            width: 100%;
+            margin: 0;
+        }
 
-#main-doc {
-    margin-left: 25rem;
-    padding: 5rem 8rem;
-    width: calc(100% - 25rem);
-}
+        ul {
+            display: flex;
+        }
 
-#technical-doc {
-    padding: 2rem;
-    font-size: 2rem;
-    text-align: center;
-    cursor: pointer;
-}
+        ul li {
+            height: clamp(2rem, 6vh, 5rem);
+            border-top: 1px solid #e1e1e1;
+            border-bottom: 1px solid #e1e1e1;
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+            cursor: pointer;
+            justify-content: center;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        ul li a {
+            width: 7rem;
+            margin: 0;
+            height: 1rem;
+        }
+
+        .inherited-properties {
+            list-style: none;
+            font-size: 1.5rem;
+            height: auto;
+        }
+
+        .inherited-properties ul {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 0;
+            height: auto;
+            padding-top: 0.5rem;
+        }
+    
+        .inherited-properties ul li {
+            font-size: 1rem;
+            border: none;
+            height: 2rem;
+            text-align: left;
+            justify-content: left;
+            padding-bottom: 1.5rem;
+        }
+
+        #technical-doc ul {
+            height: 1rem;
+        }
+    }
+
+   

@@ -4,103 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technical Documentation Page</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/ee86ae2973.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
+    <nav id="navbar">
         <header id="technical-doc">
             <i class="fa-solid fa-lines-leaning"></i>
             Technical Documentation
         </header>
         <ul>
-            <li><a href="#learn-css">
-                <i class="fa-solid fa-chalkboard-user"></i>
-                <span class="icon-space">
+            <li><a class="nav-link" href="#learn_css">
                     Learn CSS
                 </span>
             </a></li>
-            <li><a href="#box-model">
-                <i class="fa-solid fa-box"></i>
-                <span class="icon-space">
+            <li><a class="nav-link" href="#box_model">
                     Box Model
                 </span>
             </a></li>
-            <li><a href="#selectors">
-                <i class="fa-solid fa-computer-mouse"></i>
-                <span class="icon-space">
+            <li><a class="nav-link" href="#selectors">
                     Selectors
                 </span>
             </a></li>
-            <li><a href="#cascade">
-                <i class="fa-brands fa-css3-alt"></i>
-                <span class="icon-space">
-                    Cascade
+            <li><a class="nav-link" href="#the_cascade">
+                    The cascade
                 </span>
             </a></li>
-            <li><a href="#specificity">
-                <i class="fa-solid fa-glasses"></i>
-                <span class="icon-space">
+            <li><a class="nav-link" href="#specificity">
                     Specificity
                 </span>
             </a></li>
-            <li><a href="#inheritance">
-                <i class="fa-solid fa-coins"></i>
-                <span class="icon-space">
+            <li><a class="nav-link" href="#inheritance">
                     Inheritance
                 </span>
             </a></li>
-            <li><a href="#color">
-                <i class="fa-solid fa-palette"></i>
-                <span class="icon-space">
+            <li><a class="nav-link" href="#color">
                     Color
                 </span>
             </a></li>
-            <li><a href="#sizing-units">
-                <i class="fa-solid fa-magnifying-glass-plus"></i>
-                <span class="icon-space">
+            <li><a class="nav-link" href="#sizing_units">
                     Sizing Units
                 </span>
             </a></li>
-            <li><a href="#layout">
-                <i class="fa-solid fa-swatchbook"></i>
-                <span class="icon-space">
+            <li><a class="nav-link" href="#layout">
                     Layout
                 </span>
             </a></li>
-            <li><a href="#flexbox">
-                <i class="fa-solid fa-dumbbell"></i>
-                <span class="icon-space">
+            <li><a class="nav-link" href="#flexbox">
                     Flexbox
                 </span>
             </a></li>
-            <li><a href="#grid">
-                <i class="fa-brands fa-buromobelexperte"></i>
-                <span class="icon-space">
+            <li><a class="nav-link" href="#grid">
                     Grid
                 </span>
             </a></li>
-            <li><a href="#logical-properties">
-                <i class="fa-solid fa-brain"></i>
-                <span class="icon-space">
-                    Logical Properties
+            <li><a class="nav-link" href="#logical">
+                    Logical
                 </span>
             </a></li>
-            <li><a href="#spacing">
-                <i class="fa-solid fa-rocket"></i>
-                <span class="icon-space">
+            <li><a class="nav-link" href="#spacing">
                     Spacing
                 </span>
             </a></li>
         </ul>
-        
-        
-        
     </nav>
     <main id="main-doc">
-        <section class="main-section" id="learn-css">
-          <header>
-            <i class="fa-solid fa-chalkboard-user"></i>
+        <section class="main-section" id="learn_css">
+        <header>
             Learn CSS
         </header>
           <article>
@@ -111,9 +81,8 @@
           </article>
         </section>
 
-        <section class="main-section" id="box-model">
+        <section class="main-section" id="box_model">
             <header>
-                <i class="fa-solid fa-box"></i>
                 Box Model
             </header>
             <article>
@@ -121,12 +90,21 @@
                 <p>You'll learn CSS fundamentals like the box model, cascade and specificity, flexbox, grid and z-index. And, along with these fundamentals, you'll learn about functions, color types, gradients, logical properties and inheritance to make you a well-rounded front-end developer, ready to take on any user interface.</p>
                 <p>Each module is full of interactive demos and self-assessments for you to test your knowledge. In addition to learning through reading and demos, there is an accompanying podcast episode for each topic as another way to learn and continue expanding your knowledge.</p>
                 <p>This course is created for beginner and advanced CSS developers alike. You can go through the series from start to finish to get a general understanding of CSS from top to bottom, or you can use it as a reference for specific styling subjects. For those new to web development overall, check out the <a href="https://developer.mozilla.org/docs/Learn/HTML/Introduction_to_HTML" rel="noopener">intro to HTML</a> course from MDN to learn all about how to write markup and link your stylesheets.</p>
+                <code>
+                    .box {
+                        width: 200px;
+                        height: 100px;
+                        background-color: #f0f0f0;
+                        padding: 20px;
+                        border: 2px solid #333;
+                        margin: 20px;
+                    }
+                </code>
               </article>
         </section>
 
         <section class="main-section" id="selectors">
             <header>
-                <i class="fa-solid fa-computer-mouse"></i>
                 Selectors
             </header>
             <article>
@@ -134,12 +112,30 @@
                 <p>You'll learn CSS fundamentals like the box model, cascade and specificity, flexbox, grid and z-index. And, along with these fundamentals, you'll learn about functions, color types, gradients, logical properties and inheritance to make you a well-rounded front-end developer, ready to take on any user interface.</p>
                 <p>Each module is full of interactive demos and self-assessments for you to test your knowledge. In addition to learning through reading and demos, there is an accompanying podcast episode for each topic as another way to learn and continue expanding your knowledge.</p>
                 <p>This course is created for beginner and advanced CSS developers alike. You can go through the series from start to finish to get a general understanding of CSS from top to bottom, or you can use it as a reference for specific styling subjects. For those new to web development overall, check out the <a href="https://developer.mozilla.org/docs/Learn/HTML/Introduction_to_HTML" rel="noopener">intro to HTML</a> course from MDN to learn all about how to write markup and link your stylesheets.</p>
+                <code>
+                    &lt;style&gt;
+                        /* CSS code with selectors */
+                        /* Selects all paragraphs */
+                        p {
+                            color: blue;
+                        }
+                
+                        /* Selects paragraphs with class "important" */
+                        p.important {
+                            font-weight: bold;
+                        }
+                
+                        /* Selects paragraphs with id "highlighted" */
+                        #highlighted {
+                            background-color: yellow;
+                        }
+                    &lt;/style&gt;
+                </code>
               </article>
         </section>
 
-        <section class="main-section" id="cascade">
+        <section class="main-section" id="the_cascade">
             <header>
-                <i class="fa-brands fa-css3-alt"></i>
                 The cascade
             </header>
             <article>
@@ -147,12 +143,24 @@
             <p>You'll learn CSS fundamentals like the box model, cascade and specificity, flexbox, grid and z-index. And, along with these fundamentals, you'll learn about functions, color types, gradients, logical properties and inheritance to make you a well-rounded front-end developer, ready to take on any user interface.</p>
             <p>Each module is full of interactive demos and self-assessments for you to test your knowledge. In addition to learning through reading and demos, there is an accompanying podcast episode for each topic as another way to learn and continue expanding your knowledge.</p>
             <p>This course is created for beginner and advanced CSS developers alike. You can go through the series from start to finish to get a general understanding of CSS from top to bottom, or you can use it as a reference for specific styling subjects. For those new to web development overall, check out the <a href="https://developer.mozilla.org/docs/Learn/HTML/Introduction_to_HTML" rel="noopener">intro to HTML</a> course from MDN to learn all about how to write markup and link your stylesheets.</p>
+            <code>
+                /* Base styling */
+                p {
+                    color: blue;
+                    font-size: 16px;
+                }
+            
+                /* Specific styling for paragraphs with class "highlight" */
+                p.highlight {
+                    color: red;
+                    font-weight: bold;
+                }
+            </code>
           </article>
         </section>
 
         <section class="main-section" id="specificity">
             <header>
-                <i class="fa-solid fa-glasses"></i>
                 Specificity
             </header>
             <article>
@@ -160,34 +168,82 @@
               <p>You'll learn CSS fundamentals like the box model, cascade and specificity, flexbox, grid and z-index. And, along with these fundamentals, you'll learn about functions, color types, gradients, logical properties and inheritance to make you a well-rounded front-end developer, ready to take on any user interface.</p>
               <p>Each module is full of interactive demos and self-assessments for you to test your knowledge. In addition to learning through reading and demos, there is an accompanying podcast episode for each topic as another way to learn and continue expanding your knowledge.</p>
               <p>This course is created for beginner and advanced CSS developers alike. You can go through the series from start to finish to get a general understanding of CSS from top to bottom, or you can use it as a reference for specific styling subjects. For those new to web development overall, check out the <a href="https://developer.mozilla.org/docs/Learn/HTML/Introduction_to_HTML" rel="noopener">intro to HTML</a> course from MDN to learn all about how to write markup and link your stylesheets.</p>
+              <code>
+                /* Specificity: ID Selector */
+                #unique {
+                    color: red;
+                }
+            
+                /* Specificity: Class Selector */
+                .important {
+                    color: blue;
+                }
+            
+                /* Specificity: Element Selector */
+                p {
+                    color: green;
+                }
+            
+                /* Specificity: Inline Style */
+                .inline {
+                    color: orange !important;
+                }
+            </code>
             </article>
         </section>
 
         <section class="main-section" id="inheritance">
             <header>
-                <i class="fa-solid fa-coins"></i>
                 Inheritance
             </header>
             <article>
                 <p>This course is created for beginner and advanced CSS developers alike. You can go through the series from start to finish to get a general understanding of CSS from top to bottom, or you can use it as a reference for specific styling subjects. For those new to web development overall, check out the intro to HTML course from MDN to learn all about how to write markup and link your stylesheets.</p>
                 <p></p>
             </article>
+                <li class="inherited-properties">
+                    Inherited Properties:
+                    <ul>
+                        <li class="list">Text properties like color, font-size, font-family</li>
+                        <li class="list">Box model properties like padding, margin, border</li>
+                        <li class="list">Background properties</li>
+                        <li class="list">List properties</li>
+                        <li class="list">Table properties</li>
+                    </ul>
+                </li>
+            </ul>
         </section>
+        
 
         <section class="main-section" id="color">
             <header>
-                <i class="fa-solid fa-palette"></i>
                 Color
             </header>
             <article>
               <p>This course is created for beginner and advanced CSS developers alike. You can go through the series from start to finish to get a general understanding of CSS from top to bottom, or you can use it as a reference for specific styling subjects. For those new to web development overall, check out the intro to HTML course from MDN to learn all about how to write markup and link your stylesheets.</p>
+              <code>
+                /* CSS code for color */
+                p {
+                    color: blue;
+                }
+            
+                p.important {
+                    color: red;
+                }
+            
+                #highlighted {
+                    color: green;
+                }
+            
+                body {
+                    background-color: #f0f0f0;
+                }
+            </code>
               <p></p>
             </article>
         </section>
 
-        <section class="main-section" id="sizing-units">
+        <section class="main-section" id="sizing_units">
             <header>
-                <i class="fa-solid fa-magnifying-glass-plus"></i>
                 Sizing Units
             </header>
             <article>
@@ -198,7 +254,6 @@
 
         <section class="main-section" id="layout">
             <header>
-                <i class="fa-solid fa-swatchbook"></i>
                 Layout
             </header>
           <article>
@@ -209,7 +264,6 @@
 
         <section class="main-section" id="flexbox">
             <header>
-                <i class="fa-solid fa-dumbbell"></i>
                 Flexbox
             </header>
           <article>
@@ -218,9 +272,8 @@
           </article>
         </section>
 
-        <section class="main-section" id="Grid">
+        <section class="main-section" id="grid">
             <header>
-                <i class="fa-brands fa-buromobelexperte"></i>
                 Grid
             </header>
           <article>
@@ -229,10 +282,9 @@
           </article>
         </section>
 
-        <section class="main-section" id="logical-properties">
+        <section class="main-section" id="logical">
             <header>
-                <i class="fa-solid fa-brain"></i>
-                Logical Properties
+                Logical
             </header>
           <article>
             <p>This course is created for beginner and advanced CSS developers alike. You can go through the series from start to finish to get a general understanding of CSS from top to bottom, or you can use it as a reference for specific styling subjects. For those new to web development overall, check out the intro to HTML course from MDN to learn all about how to write markup and link your stylesheets.</p>
@@ -242,7 +294,6 @@
 
         <section class="main-section" id="spacing">
             <header>
-                <i class="fa-solid fa-rocket"></i>
                 Spacing
             </header>
           <article>
