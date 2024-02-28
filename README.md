@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is a technical documentation page designed to provide comprehensive information about a specific topic or technology. It is intended to serve as a reference for developers, engineers, or IT professionals looking for detailed, accurate, and clear explanations of the subject matter.
+This project is a technical documentation page designed to provide comprehensive information about a CSS. It is intended to serve as a reference for developers, engineers, or IT professionals looking for detailed, accurate, and clear explanations of the subject matter.
 
 ## Viewing the Tribute Page
 
