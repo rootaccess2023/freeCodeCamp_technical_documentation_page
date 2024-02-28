@@ -4,13 +4,13 @@
 
 This project is a technical documentation page designed to provide comprehensive information about a CSS. It is intended to serve as a reference for developers, engineers, or IT professionals looking for detailed, accurate, and clear explanations of the subject matter.
 
-## Viewing the Tribute Page
+## Viewing the Technical Documentation Page
 
-You can view the fully implemented tribute page online at the following link:
+You can view the fully implemented technical documentation page at the following link:
 
 <img src="Technical Documentation Page.png">
 
-[View Technical Documentation Page](https://rootaccess2023.github.io/freeCodeCamp_tribute_page/)
+[View Technical Documentation Page](https://rootaccess2023.github.io/freeCodeCamp_technical_documentation_page/)
 
 ## Project Description
 
