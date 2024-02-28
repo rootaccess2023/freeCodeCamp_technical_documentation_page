@@ -101,7 +101,7 @@
 
     #main-doc {
         margin-left: 25rem;
-        padding-top: clamp(1rem, 10vh, 5rem);
+        padding-top: clamp(1rem, 3vh, 5rem);
         padding-bottom: clamp(1rem, 10vh, 5rem);
         padding-left: clamp(0.5rem, 5vh, 8rem);
         padding-right: clamp(0.5rem, 5vh, 8rem);
