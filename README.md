@@ -8,7 +8,7 @@ This project is a technical documentation page designed to provide comprehensive
 
 You can view the fully implemented tribute page online at the following link:
 
-<img src="/Technical Documentation page.png">
+<img src="Technical Documentation Page.png">
 
 [View Tribute Page to Jose Rizal](https://rootaccess2023.github.io/freeCodeCamp_tribute_page/)
 
